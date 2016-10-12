@@ -23,6 +23,7 @@ router.get("/contact",function(req,res){
 router.get("/orari",function(req,res){
     res.sendFile(path + "orari.html");
 });
+app.use(express.static(__dirname + '/images'));
 
 app.use("/",router);
 
