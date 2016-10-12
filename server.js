@@ -20,8 +20,8 @@ router.get("/contact",function(req,res){
   res.sendFile(path + "contact.html");
 });
 
-router.get("/pornhub",function(req,res){
-    res.sendFile(path + "pornhub.html");
+router.get("/orari",function(req,res){
+    res.sendFile(path + "orari.html");
 });
 
 app.use("/",router);

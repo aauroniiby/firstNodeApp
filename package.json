@@ -1,7 +1,7 @@
 {
   "name": "firstnodeapp",
   "version": "1.0.0",
-  "description": "this is my firt app enyoi this mirakle",
+  "description": "this is my firt app enjoy this miracle",
   "main": "server.js",
   "scripts": {
     "start" : "node server.js",
