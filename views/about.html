@@ -19,7 +19,7 @@
   <br/>
   <div class="jumbotron">
 <div class="row">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="thumbnail">
       <img class="img-circle" src="/photo.jpeg" alt="My_Logo" style="width:150px;heigth:150px">
       <div class="caption">
@@ -33,7 +33,7 @@
 
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="thumbnail">
       <img class="img-circle" src="/photo1.jpg" alt="My_Logo" style="width:150px;heigth:150px">
       <div class="caption">
@@ -47,7 +47,7 @@
 
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="thumbnail">
       <img class="img-circle" src="/endri.jpg" alt="My_Logo" style="width:108px;heigth:300px">
       <div class="caption">
@@ -61,7 +61,7 @@
 
     </div>
   </div>
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-4 col-md-4">
     <div class="thumbnail">
       <img class="img-circle" src="/imm.jpg" alt="My_Logo" style="width:150px;heigth:150px">
       <div class="caption">
@@ -75,7 +75,7 @@
 
     </div>
   </div>
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-4 col-md-4">
     <div class="thumbnail">
       <img class="img-circle" src="/egzon.jpg" alt="My_Logo" style="width:150px;heigth:150px">
       <div class="caption">
@@ -89,7 +89,7 @@
 
     </div>
   </div>
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-4 col-md-4">
     <div class="thumbnail">
       <img class="img-circle" src="/agoni.jpg" alt="My_Logo" style="width:150px;heigth:150px">
       <div class="caption">
@@ -181,14 +181,14 @@ var personi =  {
     },
 };
 
-$(".btn-profilet").click(function(){
-  // Holds the product ID of the clicked element
-  // var productId = $('#modalImgId').attr('class').replace('addproduct ', '');
-  var elementID = $(this).attr('id');
-  $('#myModalLabel').text(personi[elementID].emri + " " + personi[elementID].mbiemri);
-var productId = $('#modalImgId').attr('src', personi[elementID].photoUrl);
- $('#moshaId').text("Mosha: " + personi[elementID].mosha);
- $('#bioId').text("Biografia: " + personi[elementID].bio);
+  $(".btn-profilet").click(function(){
+    // Holds the product ID of the clicked element
+    // var productId = $('#modalImgId').attr('class').replace('addproduct ', '');
+    var elementID = $(this).attr('id');
+    $('#myModalLabel').text(personi[elementID].emri + " " + personi[elementID].mbiemri);
+    var productId = $('#modalImgId').attr('src', personi[elementID].photoUrl);
+    $('#moshaId').text("Mosha: " + personi[elementID].mosha);
+    $('#bioId').text("Biografia: " + personi[elementID].bio);
 
 });
 })
