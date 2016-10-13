@@ -10,7 +10,9 @@ app.set('view engine', 'handlebars');
 app.get('/', function (req, res) {
     res.render('home');
 });
-
+app.get('/charts', function(req, res){
+    res.render('charts')
+});
 app.get('/about', function (req, res) {
     var detajetePersonave = [
       {
