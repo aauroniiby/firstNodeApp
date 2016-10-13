@@ -13,6 +13,7 @@
   "author": "auron bytyqi",
   "license": "MIT",
   "dependencies" : {
-    "express" : "latest"
+    "express" : "latest",
+    "express-handlebars " : "3.0.0"
   }
 }
